@@ -135,5 +135,5 @@ galaxy_info:
   #- system
   #- web
 dependencies:
-  - { role: geerlingguy.apache-php-fpm, php_packages: [php5, php5-cli, php5-common, php5-gd, php5-json, php5-readline, php5-imagick], php5_date_timezone: "America/Los_Angeles" }
+  - { role: geerlingguy.apache-php-fpm, php_packages: [php5, php5-cli, php5-common, php5-gd, php5-json, php5-readline, php5-imagick], php_date_timezone: "America/Los_Angeles" }
   - { role: geerlingguy.mysql, dbname: [icinga, icingaweb], dbuser: [icinga, icingaweb], dbpass: [icinga, icingaweb] }
