@@ -137,4 +137,4 @@ galaxy_info:
 dependencies:
   - { role: geerlingguy.php, php_packages: [libapache2-mod-php7.0, php-apcu, php-json, php-ldap, php-mysql, php-intl, php-dom, php-cli, php-common, php-gd, php-readline, php-imagick], php_date_timezone: "America/Los_Angeles" }
   - { role: geerlingguy.apache-php-fpm }
-  - { role: geerlingguy.mysql, dbname: [icinga, icingaweb], dbuser: [icinga, icingaweb], dbpass: [icinga, icingaweb] }
+  - { role: geerlingguy.mysql }
